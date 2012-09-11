@@ -1,0 +1,114 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/NeCkEr/nvm/v0.8.6/bin/node',
+1 verbose cli   '/Users/NeCkEr/nvm/v0.8.6/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.1.48
+3 info using node@v0.8.6
+4 verbose config file /Users/NeCkEr/.npmrc
+5 verbose config file /Users/NeCkEr/nvm/v0.8.6/etc/npmrc
+6 verbose config file /Users/NeCkEr/nvm/v0.8.6/lib/node_modules/npm/npmrc
+7 verbose publish [ '.' ]
+8 verbose read json /Users/NeCkEr/Lab/jade-browser/package.json
+9 verbose cache add [ '.', null ]
+10 silly cache add name=undefined spec="." args=[".",null]
+11 verbose parsed url { pathname: '.', path: '.', href: '.' }
+12 silly lockFile 3a52ce78- .
+13 verbose lock . /Users/NeCkEr/.npm/3a52ce78-.lock
+14 verbose read json package.json
+15 verbose tar pack [ '/var/folders/xu/xuck7PBbG8qc1bvmkJMLTE+++TI/-Tmp-/npm-33673/1347390001703-0.3849517956841737/tmp.tgz',
+15 verbose tar pack   '.' ]
+16 verbose tarball /var/folders/xu/xuck7PBbG8qc1bvmkJMLTE+++TI/-Tmp-/npm-33673/1347390001703-0.3849517956841737/tmp.tgz
+17 verbose folder .
+18 info prepublish jadeBrowser@0.0.1
+19 silly lockFile 5cbd5c9f-01703-0-3849517956841737-tmp-tgz /var/folders/xu/xuck7PBbG8qc1bvmkJMLTE+++TI/-Tmp-/npm-33673/1347390001703-0.3849517956841737/tmp.tgz
+20 verbose lock /var/folders/xu/xuck7PBbG8qc1bvmkJMLTE+++TI/-Tmp-/npm-33673/1347390001703-0.3849517956841737/tmp.tgz /Users/NeCkEr/.npm/5cbd5c9f-01703-0-3849517956841737-tmp-tgz.lock
+21 silly lockFile 5cbd5c9f-01703-0-3849517956841737-tmp-tgz /var/folders/xu/xuck7PBbG8qc1bvmkJMLTE+++TI/-Tmp-/npm-33673/1347390001703-0.3849517956841737/tmp.tgz
+22 verbose tar unpack /var/folders/xu/xuck7PBbG8qc1bvmkJMLTE+++TI/-Tmp-/npm-33673/1347390001703-0.3849517956841737/tmp.tgz
+23 silly lockFile 9182c45c-01703-0-3849517956841737-package /var/folders/xu/xuck7PBbG8qc1bvmkJMLTE+++TI/-Tmp-/npm-33673/1347390001703-0.3849517956841737/package
+24 verbose lock /var/folders/xu/xuck7PBbG8qc1bvmkJMLTE+++TI/-Tmp-/npm-33673/1347390001703-0.3849517956841737/package /Users/NeCkEr/.npm/9182c45c-01703-0-3849517956841737-package.lock
+25 silly gunzTarPerm modes [ '755', '644' ]
+26 silly gunzTarPerm extractEntry package.json
+27 silly gunzTarPerm extractEntry .npmignore
+28 silly gunzTarPerm extractEntry README.md
+29 silly gunzTarPerm extractEntry index.js
+30 silly gunzTarPerm extractEntry lib/expose.js
+31 silly gunzTarPerm extractEntry lib/render.js
+32 silly gunzTarPerm extractEntry lib/utils.js
+33 verbose read json /var/folders/xu/xuck7PBbG8qc1bvmkJMLTE+++TI/-Tmp-/npm-33673/1347390001703-0.3849517956841737/package/package.json
+34 silly lockFile 9182c45c-01703-0-3849517956841737-package /var/folders/xu/xuck7PBbG8qc1bvmkJMLTE+++TI/-Tmp-/npm-33673/1347390001703-0.3849517956841737/package
+35 verbose from cache /var/folders/xu/xuck7PBbG8qc1bvmkJMLTE+++TI/-Tmp-/npm-33673/1347390001703-0.3849517956841737/package/package.json
+36 verbose tar pack [ '/Users/NeCkEr/.npm/jadeBrowser/0.0.1/package.tgz',
+36 verbose tar pack   '/var/folders/xu/xuck7PBbG8qc1bvmkJMLTE+++TI/-Tmp-/npm-33673/1347390001703-0.3849517956841737/package' ]
+37 verbose tarball /Users/NeCkEr/.npm/jadeBrowser/0.0.1/package.tgz
+38 verbose folder /var/folders/xu/xuck7PBbG8qc1bvmkJMLTE+++TI/-Tmp-/npm-33673/1347390001703-0.3849517956841737/package
+39 silly lockFile 8349a1ee-pm-jadeBrowser-0-0-1-package-tgz /Users/NeCkEr/.npm/jadeBrowser/0.0.1/package.tgz
+40 verbose lock /Users/NeCkEr/.npm/jadeBrowser/0.0.1/package.tgz /Users/NeCkEr/.npm/8349a1ee-pm-jadeBrowser-0-0-1-package-tgz.lock
+41 silly lockFile 8349a1ee-pm-jadeBrowser-0-0-1-package-tgz /Users/NeCkEr/.npm/jadeBrowser/0.0.1/package.tgz
+42 silly lockFile 3e5a0e49-Er-npm-jadeBrowser-0-0-1-package /Users/NeCkEr/.npm/jadeBrowser/0.0.1/package
+43 verbose lock /Users/NeCkEr/.npm/jadeBrowser/0.0.1/package /Users/NeCkEr/.npm/3e5a0e49-Er-npm-jadeBrowser-0-0-1-package.lock
+44 silly lockFile 3e5a0e49-Er-npm-jadeBrowser-0-0-1-package /Users/NeCkEr/.npm/jadeBrowser/0.0.1/package
+45 verbose tar unpack /Users/NeCkEr/.npm/jadeBrowser/0.0.1/package.tgz
+46 silly lockFile 3e5a0e49-Er-npm-jadeBrowser-0-0-1-package /Users/NeCkEr/.npm/jadeBrowser/0.0.1/package
+47 verbose lock /Users/NeCkEr/.npm/jadeBrowser/0.0.1/package /Users/NeCkEr/.npm/3e5a0e49-Er-npm-jadeBrowser-0-0-1-package.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 silly gunzTarPerm extractEntry package.json
+50 silly gunzTarPerm extractEntry .npmignore
+51 silly gunzTarPerm extractEntry README.md
+52 silly gunzTarPerm extractEntry index.js
+53 silly gunzTarPerm extractEntry lib/expose.js
+54 silly gunzTarPerm extractEntry lib/render.js
+55 silly gunzTarPerm extractEntry lib/utils.js
+56 verbose read json /Users/NeCkEr/.npm/jadeBrowser/0.0.1/package/package.json
+57 silly lockFile 3e5a0e49-Er-npm-jadeBrowser-0-0-1-package /Users/NeCkEr/.npm/jadeBrowser/0.0.1/package
+58 silly shasum updated bytes 5011
+59 info shasum f2c26164a12b7db02e87129720368a9e9b586901
+59 info shasum /Users/NeCkEr/.npm/jadeBrowser/0.0.1/package.tgz
+60 verbose from cache /Users/NeCkEr/.npm/jadeBrowser/0.0.1/package/package.json
+61 verbose chmod /Users/NeCkEr/.npm/jadeBrowser/0.0.1/package.tgz 644
+62 verbose chown /Users/NeCkEr/.npm/jadeBrowser/0.0.1/package.tgz [ 501, 20 ]
+63 silly lockFile 3a52ce78- .
+64 silly publish { author: { name: 'Storify', email: 'dev@storify.com' },
+64 silly publish   name: 'jadeBrowser',
+64 silly publish   description: 'express/connect middleware that serves jade compiled templates to the browser modified to enable recompile the jade files when I change them',
+64 silly publish   version: '0.0.1',
+64 silly publish   repository: { url: 'https://github.com/NeCkEr/jade-browser.git' },
+64 silly publish   main: './index.js',
+64 silly publish   engines: { node: '>= 0.4' },
+64 silly publish   dependencies:
+64 silly publish    { jade: '0.20.3',
+64 silly publish      async: '0.1.18',
+64 silly publish      glob: '3.1.7',
+64 silly publish      'uglify-js': '1.2.5' },
+64 silly publish   devDependencies: {},
+64 silly publish   optionalDependencies: {},
+64 silly publish   readme: '# JadeBrowser\n  Just a small fork to enable recompile the jade files when I change them\n  \n## Installation\n\n    $ npm install jadeBrowser\n\n# Jade Browser\n\n  Middleware for express/connect to expose jade templates to the web browser. It provides a few additional features like express-like render function with partial handling.\n  \n```javascript\nvar express = require(\'express\')\n  , jade_browser = require(\'jade-browser\')\n  , app = express.createServer();\n  \napp.use(jade_browser(url_endpoint, template_dir, options));\n```\n\n\n  \n## Features\n\n  * Jade templates are served as compiled functions.\n    * removes browser compatibility issues\n    * increases speed of template execution\n    * reduces file transfer size\n  * ability to minify output\n  * option to attach cache control\n  * provides helpers for handling rendering/partials just like express.\n  * relative path handling even from within partials.\n  * ability to completely namespace to avoid any naming collisions on the browser.\n  * partials inherit parent locals\n\n## Usage\n\n### In Node.js\n  As middleware jade-browser is simple to use.\n\n```javascript\nvar express = require(\'express\')\n  , jade_browser = require(\'jade-browser\')\n  , app = express.createServer();\n\napp.use(jade_browser(\'/js/templates.js\', \'**\', options));\n```\n\n### Params\n  - `filename`  The filename of the resulting compiled templates file\n  - `patterns`  A single string or array of patterns used to glob for template files\n  - `options`   Options object, see below (optional)\n\n#### Options\n  - `root`      The root of the views (default: __dirname)\n  - `namespace` Namespace for the browser (default: \'jade\')\n  - `minify`    Minifies the output (default: false)\n  - `maxAge`    Time in seconds to cache the results (default: 86400)\n  \n### Browser\n\n```javascript\njade.render(\'path/to/template\', { values: for_template });\n```\n    \nFor direct access (for templates that have no need for partials).\n\n```javascript\njade.templates[\'path/to/template.jade\'](locals);\n```\n    \nNote: With render \'.jade\' extension is not required. Relative paths can be used in templates and in render function.\n\n```javascript\njade.render(\'path/../to/../test\');\n```\n\n## Credit\n\n  Large amounts of this code is inspired by TJ. Parts of express-expose and internal parts of express are recycled to make this happen.\n\n## Contributors\n\n  * Nathan White ([nw](http://github.com/nw))\n  * Adrian Bravo ([adrianbravo](http://github.com/adrianbravo))\n  * Conner Petzold ([cpetzold](http://github.com/cpetzold))\n    \n## License \n\n(The MIT License)\n\nCopyright (c) 2009-2011 Storify &lt;info@storify.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+64 silly publish   _id: 'jadeBrowser@0.0.1',
+64 silly publish   dist: { shasum: 'f2c26164a12b7db02e87129720368a9e9b586901' } }
+65 verbose url raw jadeBrowser
+66 verbose url resolving [ 'https://registry.npmjs.org/', './jadeBrowser' ]
+67 verbose url resolved https://registry.npmjs.org/jadeBrowser
+68 info retry registry request attempt 1 at 20:00:01
+69 http PUT https://registry.npmjs.org/jadeBrowser
+70 http 403 https://registry.npmjs.org/jadeBrowser
+71 error publish Failed PUT response 403
+72 error Error: forbidden New packages must have all-lowercase names: jadeBrowser
+72 error     at RegClient.<anonymous> (/Users/NeCkEr/nvm/v0.8.6/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:14)
+72 error     at Request.init.self.callback (/Users/NeCkEr/nvm/v0.8.6/lib/node_modules/npm/node_modules/request/main.js:120:22)
+72 error     at Request.EventEmitter.emit (events.js:91:17)
+72 error     at Request.<anonymous> (/Users/NeCkEr/nvm/v0.8.6/lib/node_modules/npm/node_modules/request/main.js:555:16)
+72 error     at Request.EventEmitter.emit (events.js:88:17)
+72 error     at IncomingMessage.Request.start.self.req.self.httpModule.request.buffer (/Users/NeCkEr/nvm/v0.8.6/lib/node_modules/npm/node_modules/request/main.js:517:14)
+72 error     at IncomingMessage.EventEmitter.emit (events.js:115:20)
+72 error     at IncomingMessage._emitEnd (http.js:366:10)
+72 error     at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)
+72 error     at CleartextStream.socketOnData [as ondata] (http.js:1366:20)
+73 error If you need help, you may report this log at:
+73 error     <http://github.com/isaacs/npm/issues>
+73 error or email it to:
+73 error     <npm-@googlegroups.com>
+74 error System Darwin 10.8.0
+75 error command "/Users/NeCkEr/nvm/v0.8.6/bin/node" "/Users/NeCkEr/nvm/v0.8.6/bin/npm" "publish"
+76 error cwd /Users/NeCkEr/Lab/jade-browser
+77 error node -v v0.8.6
+78 error npm -v 1.1.48
+79 verbose exit [ 1, true ]

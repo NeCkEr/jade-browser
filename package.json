@@ -1,6 +1,6 @@
 {
   "author": "Storify <dev@storify.com>",
-  "name": "jadeBrowser",
+  "name": "jadebrowser",
   "description": "express/connect middleware that serves jade compiled templates to the browser modified to enable recompile the jade files when I change them",
   "version": "0.0.1",
   "repository": {
