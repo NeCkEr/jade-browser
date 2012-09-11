@@ -1,3 +1,10 @@
+# JadeBrowser
+  Just a small fork to enable recompile the jade files when I change them
+  
+## Installation
+
+    $ npm install jadeBrowser
+
 # Jade Browser
 
   Middleware for express/connect to expose jade templates to the web browser. It provides a few additional features like express-like render function with partial handling.
@@ -10,9 +17,7 @@ var express = require('express')
 app.use(jade_browser(url_endpoint, template_dir, options));
 ```
 
-## Installation
 
-    $ npm install jade-browser
   
 ## Features
 
